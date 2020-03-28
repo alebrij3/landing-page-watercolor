@@ -1,0 +1,160 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lora', system-ui, sans-serif;
+  min-height: 100%;
+  color: #606060;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.hero {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #313131;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  color: #ee3e97;
+  border-bottom: 3px solid #ee3e97;
+}
+
+span.pink {
+  font-weight: 700;
+  color: #ee3e97;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+.hero p {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #ee3e97;
+  color: white;
+  font-size: 22px;
+}
+
+.hero {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.container img {
+  width: 50%;
+}
+
+.container section img {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.container section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav a:last-child {
+  margin-left: auto;
+  color: #a7a7a7;
+  font-size: 1.2em;
+}
+
+footer {
+  height: 150px;
+  background-image: url("img/pink-stroke.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.container section {
+  margin: 40px 0;
+}
+
+nav {
+  margin: 0 60px;
+}
+
+.container section p {
+  padding: 15px;
+}
+
+nav {
+  border-bottom: 2px solid #f9c5df;
+  position: relative;
+}
+
+nav:after {
+  padding: 0;
+  margin: 0;
+  display: block;
+  /* probably not really needed? */
+  content: "";
+  width: 50%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+}
+
+nav a:last-child:hover {
+  border-bottom: 0;
+}
+/*# sourceMappingURL=main.css.map */
