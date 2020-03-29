@@ -20,7 +20,7 @@ color.addWater();
 ```
 
 ## Preview
-![watercolor painting](img/watercolor-painting "Watercolor painting")
+![watercolor painting](https://github.com/alejvndrox/landing-page-acuarela/blob/master/img/watercolor-painting.jpg "Watercolor painting")
 
 ## Notes
 This area is inteded to take notes
