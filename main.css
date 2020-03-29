@@ -186,6 +186,29 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  nav a {
+    border-bottom: 3px solid white;
+  }
+  nav a:last-child {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    border-bottom: none;
+  }
   nav:after {
     display: none;
   }

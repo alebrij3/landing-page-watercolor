@@ -148,8 +148,23 @@ footer {
     }
 }
 @media screen and (max-width: 600px) {
-    nav:after {
-        display: none;
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        a {
+            border-bottom: 3px solid white;
+        }
+        a:last-child {
+            order: -1;
+            margin: 0;
+            text-align: center;
+            width: 100%;
+            border-bottom: none;
+        }
+        &:after {
+            display: none;
+        }
     }
     .container {
         max-width: 800px;
