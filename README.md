@@ -1,9 +1,11 @@
 # Watercolours
-Watercolor or watercolour, also aquarelle, is a painting method in which the paints are made of pigments suspended in a water-based solution.
+This is my first lnding page, it has mockup information; the objective was to use web technologies to create it.
 
-## Content
-This project is about a landing page for watercolours
+## Technologies used
+<div align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5 logo" />
 
+</div>
 ## Colors used
 ### Pink
 Pink is a pale shade of red that is named after a flower of the same name. It was first used as a color name in the late 17th century. According to surveys in Europe and the United States, pink is the color most often associated with charm, politeness, sensitivity, tenderness, sweetness, childhood, femininity and romance.
