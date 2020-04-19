@@ -3,8 +3,9 @@ This is my first lnding page, it has mockup information; the objective was to us
 
 ## Technologies used
 <div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5 logo" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" alt="html5 logo" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="200" height="auto" alt="html5 logo" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" width="200" height="auto" alt="css3 logo" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" width="200" height="auto" alt="sass logo" />
 </div>
 ## Colors used
 ### Pink
