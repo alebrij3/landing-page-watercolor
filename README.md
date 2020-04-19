@@ -1,10 +1,10 @@
-# Watercolours
+# Landing Page
 This is my first lnding page, it has mockup information; the objective was to use web technologies to create it.
 
 ## Technologies used
 <div align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5 logo" />
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" alt="html5 logo" />
 </div>
 ## Colors used
 ### Pink
