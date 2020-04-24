@@ -1,5 +1,5 @@
 # Landing Page
-This is my first lnding page, it has mockup information; the objective was to use web technologies to create it.
+This is my first landing page, it has mockup information; the objective was to use web technologies to create it.
 
 ## Technologies used
 <div align="center">
