@@ -75,7 +75,8 @@ nav a:last-child:hover {
 }
 
 .hero {
-  max-width: 1000px;
+  width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
@@ -85,6 +86,14 @@ nav a:last-child:hover {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px;
+}
+
+.hero section {
+  max-width: 100%;
+}
+
+.hero img {
+  max-width: 100%;
 }
 
 .hero h1 {
@@ -211,6 +220,9 @@ footer {
   }
   nav:after {
     display: none;
+  }
+  .hero img {
+    max-width: 100%;
   }
   .container {
     max-width: 800px;

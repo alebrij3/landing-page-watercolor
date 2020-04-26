@@ -61,12 +61,19 @@ nav {
     }
 }
 .hero {
-    max-width: 1000px;
+    width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     padding: 10px;
+    section {
+        max-width: 100%;
+    }
+    img {
+        max-width: 100%;
+    }
     h1 {
         font-size: 34px;
     }
@@ -165,6 +172,9 @@ footer {
         &:after {
             display: none;
         }
+    }
+    .hero img {
+        max-width: 100%;
     }
     .container {
         max-width: 800px;
