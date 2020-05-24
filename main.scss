@@ -139,8 +139,7 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas:
-            "top"
-            "bottom";
+            "top";
         align-items: center;
         justify-items: center;
         padding: 10px;
@@ -192,8 +191,7 @@ footer {
             margin: 30px 0;
             &:nth-child(2) {
                 grid-template-areas:
-                    "top"
-                    "bottom";
+                    "top";
                 img {
                     grid-area: top;
                 }
